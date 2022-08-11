@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.question-area {
+    display:flex;    
+    margin-bottom: 20px;
+    
+    font-size: 1.3rem;
+    color: black;     
+}
+
+/* .answer-text {
+    background-color:red;
+} */
+
+.showOptionsBtn {
+    margin-left: 50px;
+    border-radius: 5px;    
+}
+
+.first-button {
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: Solid black 2pxS;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.second-button {
+    color: #fff;
+    margin-right: 5px;
+    border: Solid black 2pxS;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.third-button {
+    color: #fff;
+    margin-right: 5px;
+    border: Solid black 2pxS;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.scoreArea {
+    display: flex;
+    color: darkgray;
+    font-size: 1.5rem;    
+}
